@@ -1,0 +1,19 @@
+To migrate a virtual machine (VM) from one host to another using OpenNebula, you can follow these steps:
+
+1. Log in to OpenNebula Sunstone: Open a web browser and enter the URL provided by your OpenNebula installation to access the Sunstone GUI.
+
+2. Navigate to the "Compute" tab: Click on the "Compute" tab in the Sunstone GUI to access the virtual machine management section.
+
+3. Select the VM to migrate: From the list of virtual machines, select the VM that you want to migrate to another host.
+
+4. Click on the "Migrate" button: Once you have selected the VM, click on the "Migrate" button in the toolbar or the corresponding option in the context menu.
+
+5. Choose the destination host: In the migration dialog box, select the destination host where you want to migrate the VM. This can be a specific host or a cluster.
+
+6. Configure migration options: You can configure additional migration options such as live migration or offline migration, depending on your requirements. Live migration allows the VM to keep running during the migration process, while offline migration shuts down the VM before migrating it.
+
+7. Start the migration: After configuring the migration options, click on the "Migrate" button to start the migration process.
+
+8. Monitor the migration process: OpenNebula will start migrating the VM from the source host to the destination host. You can monitor the progress of the migration in the Sunstone GUI, typically in the "Tasks" section or the "Virtual Machines" section.
+
+9. Verify the migration: Once the migration is complete, verify that the VM is running on the new host. You can check the VM's status and details in the Sunstone GUI.
