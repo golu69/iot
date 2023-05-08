@@ -1,0 +1,27 @@
+To create a VM instance using OpenNebula Sunstone GUI over Oracle VirtualBox, you'll need to follow these steps:
+
+1. Install OpenNebula: Ensure that you have OpenNebula installed and configured on your system. You can refer to the OpenNebula documentation for installation instructions.
+
+2. Set up VirtualBox: Install Oracle VirtualBox on your machine and make sure it is properly configured.
+
+3. Access OpenNebula Sunstone: Open a web browser and enter the URL provided by your OpenNebula installation to access the Sunstone GUI.
+
+4. Log in to Sunstone: Enter your credentials to log in to the Sunstone GUI.
+
+5. Create a new Virtual Machine: In the Sunstone GUI, navigate to the "Compute" tab and click on "Virtual Machines" in the sidebar.
+
+6. Click on the "+" button: On the Virtual Machines page, click on the "+" button to create a new virtual machine.
+
+7. Provide VM details: Fill in the required information for the new VM, such as the name, template, and network configuration.
+
+8. Select the VirtualBox hypervisor: In the "Hypervisor" section, choose "vbox" to use Oracle VirtualBox.
+
+9. Configure resources: Specify the CPU, memory, and storage resources for the VM according to your requirements.
+
+10. Customize VM configuration: In the "VM Template" section, you can further customize the VM configuration, such as adding contextualization or specifying advanced options.
+
+11. Save the VM: Click on the "Create" button to save the VM configuration.
+
+12. Start the VM: Once the VM is created, you can select it from the list of virtual machines in the Sunstone GUI and click on the "Play" button to start the VM.
+
+13. Access the VM: You can now access the VM using the desired remote access method, such as SSH or RDP, depending on the operating system installed on the VM.
