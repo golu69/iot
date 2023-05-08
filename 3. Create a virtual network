@@ -1,0 +1,27 @@
+To create a virtual network in a virtual machine (VM) using OpenNebula, you can follow these steps:
+
+1. Log in to OpenNebula Sunstone: Open a web browser and enter the URL provided by your OpenNebula installation to access the Sunstone GUI.
+
+2. Navigate to the "Network" tab: Click on the "Network" tab in the Sunstone GUI to access the network management section.
+
+3. Click on the "+" button: On the Networks page, click on the "+" button to create a new virtual network.
+
+4. Provide network details: Fill in the required information for the new virtual network, such as the name, description, and network address.
+
+5. Configure network attributes: In the "Attributes" section, you can further configure the network by specifying options like VLAN ID, MTU, or DNS servers. Adjust these settings based on your network requirements.
+
+6. Define network range and lease duration: In the "Leases" section, you can define the IP address range and lease duration for the network.
+
+7. Set network permissions: In the "Permissions" section, specify the permissions for the network, such as who can access it and what operations they can perform.
+
+8. Save the network: Click on the "Create" button to save the virtual network configuration.
+
+9. Assign the network to a VM: To assign the virtual network to a VM, go to the "Compute" tab, select the VM you want to connect to the network, and click on the "Update" button.
+
+10. Configure NIC (Network Interface Card): In the VM update dialog, navigate to the "Network" section and click on the "+" button to add a new NIC.
+
+11. Select the virtual network: From the "Network" dropdown menu, select the virtual network you created in the previous steps.
+
+12. Save the VM changes: Click on the "Update" button to save the changes made to the VM.
+
+13. Start the VM: Once the VM is updated, you can start or restart the VM to apply the changes.
